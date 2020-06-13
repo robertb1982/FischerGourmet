@@ -1,0 +1,240 @@
+/* Contact Me */
+section.container {
+	padding: 3em 5%;
+}
+
+
+/* Section */
+.landing {
+    position: relative;
+    background-image: url('../img/fischer-gourmet-cookies.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.landing-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+    text-align: center;
+    padding-top: 125px;
+}
+
+.landing h1 {
+  font-size: 35px;
+  padding: 2%;
+  font-family: 'Courgette', cursive;
+  line-height: 1.5em;
+  border: 3px solid;
+  border-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 40%;
+  margin: auto;
+  letter-spacing: 8px;
+}
+
+section.main-container {
+    height: auto;
+    min-height: 270px;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+#text-main p {
+    text-align: center;
+}
+
+#text-main {
+    text-align: left;
+}
+
+#text-main h2, #text-main p {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.details {
+    width: 126px;
+    margin: 9px auto 0;
+    background: #f04;
+    padding: 9px 0;
+    border-radius: 5px;
+}
+
+.details a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+/* Form */
+.col-8 {
+    width: 65%;
+}
+
+#contact {
+    padding-bottom: 40px;
+}
+
+#contact-form {
+    margin: 40px 0;
+}
+
+.buffer-bottom {
+    margin-bottom: 10px;
+}
+
+input[type=email], input[type=text], textarea {
+    padding: 12px 24px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin: 0 20px 10px 0;
+    border: 1px solid #ccc;
+    /* background: rgba(0,0,0,.06); */
+    background: #fafafa;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+input[type=email], input[type=text] {
+    width: 100%;
+}
+
+/* input[type=text]:last-of-type {
+    margin-right: 0;
+}  */
+
+textarea {
+    color: #000;
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#submit-response {
+    color: #fff;
+    display: none;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+.pull-left {
+    float: left;
+}
+
+#contact-form .button {
+    color: #025b52;
+    margin-right: 11px;
+    border: 1px solid #025b52;
+    background: #ffffff;
+}
+
+.button {
+    background: #025b52;
+    text-align: center;
+    color: #fff;
+    padding: 9px 31px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0;
+    border-radius: 5px;
+    -webkit-transition: padding .25s,background .25s;
+    transition: padding .25s,background .25s;
+}
+
+#contact-form .button:hover {
+    background: #025b52;
+    color: #fff!important;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert {
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1072px) {
+input[type=email], input[type=text] {
+    display: block;
+    width: 100%;
+    margin: 13px 0;
+	}
+}
+
+@media screen and (max-width: 690px) {
+.col-4 {
+    width: 100%;
+}
+.col-8 {
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+#logo {
+    width: 70%;
+    background-size: 225px 50px;
+}
+
+#main {
+    width: 100%;
+}
+
+section.main-container {
+    height: auto;
+    min-height: 1000px;
+}
+
+.landing {
+    height: 250px;
+    overflow: auto;
+}
+
+.landing-inner {
+    height: inherit;
+  padding-top: 100px;
+}
+
+.landing h1 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.fab, .fas {
+    font-size: 30px;
+ }
+}
