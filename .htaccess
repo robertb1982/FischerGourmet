@@ -22,4 +22,9 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 RewriteCond %{REQUEST_URI} /+[^\.]+$
 RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?robertb1982.github\.io
+RewriteRule ^(.*)$ https://robertb1982.github.io/FischerGourmet/$1 [R,L]
+
 ErrorDocument 404 /page-not-found.html
